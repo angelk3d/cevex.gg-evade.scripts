@@ -1,3 +1,4 @@
+repeat task.wait() until game:IsLoaded()
 if not _G.CEVEX_SESSION_TOKEN or not _G.CEVEX_HWID then
     error("Cevex Script Error: This script must be launched through Cevex Loader")
     return
